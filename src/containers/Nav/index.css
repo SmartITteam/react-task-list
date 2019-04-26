@@ -1,0 +1,38 @@
+.navbar-collapse {
+  position: relative;
+}
+
+.navbar-text {
+  cursor: pointer;
+}
+
+.users-list {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  max-height: 10em;
+  overflow-y: scroll;
+  top: 2em;
+  right: .5em;
+  transition: all 0.2s ease-in-out;
+  background-color: rgba(0,0,0,0.1);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.users-list.hidden {
+  padding: 0;
+  position: absolute;
+  max-height: 0;
+  overflow: hidden;
+}
+
+.users-list > span:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.static-element > p {
+  padding: 0 0 0.75rem;
+}
+

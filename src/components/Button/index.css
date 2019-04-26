@@ -1,0 +1,25 @@
+.btn {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: .25rem;
+  padding: .375rem .75rem;
+  transition: background-color 0.2s ease-in-out;
+  transition: border-color 0.2s ease-in-out;
+  transition: box-shadow 0.1s ease-in-out;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.btn:hover{
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.btn:active{
+  background-color: #0062cc;
+  border-color: #005cbf;
+  box-shadow: rgba(38, 143, 255, 0.5) 0px 0px 0px 3.2px;
+}
